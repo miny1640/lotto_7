@@ -1,0 +1,14 @@
+2025/08/11-14:29:47.037 5c5c Reusing MANIFEST C:\Users\박민영\VSCodeProjects\lotto_7\selenium_profile\Default\IndexedDB\https_www.takarakuji-official.jp_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/11-14:29:47.038 5c5c Recovering log #13
+2025/08/11-14:29:47.039 5c5c Reusing old log C:\Users\박민영\VSCodeProjects\lotto_7\selenium_profile\Default\IndexedDB\https_www.takarakuji-official.jp_0.indexeddb.leveldb/000013.log 
+2025/08/11-14:29:47.040 5c5c Delete type=2 #11
+2025/08/11-14:29:47.046 3e00 Level-0 table #18: started
+2025/08/11-14:29:47.048 3e00 Level-0 table #18: 671 bytes OK
+2025/08/11-14:29:47.049 3e00 Delete type=0 #13
+2025/08/11-14:29:47.051 5c5c Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 140 : 1
+2025/08/11-14:29:47.051 5c5c Compacting 1@0 + 1@1 files
+2025/08/11-14:29:47.053 5c5c Generated table #19@0: 44 keys, 1270 bytes
+2025/08/11-14:29:47.053 5c5c Compacted 1@0 + 1@1 files => 1270 bytes
+2025/08/11-14:29:47.054 5c5c compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/11-14:29:47.054 5c5c Delete type=2 #18
+2025/08/11-14:29:47.055 5c5c Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 140 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
