@@ -4,7 +4,8 @@ import csv
 from keras.models import Sequential
 from keras.layers import LSTM, Dense
 from sklearn.preprocessing import MinMaxScaler
-import env
+
+CSV_FILE = "lotto7_results.csv"
 
 def scale_numbers(file_name, scaler):
     # 1. 데이터 로드
@@ -62,7 +63,7 @@ def write_to_csv(results, csv_file):
 def main():
     scaler = MinMaxScaler(feature_range=(0, 1))
 
-    file_name = env.CSV_FILE
+    file_name = CSV_FILE
     sequence_length = 20 # 최근 20회 당첨 번호로 다음 회차 예측
     predict_num = 7 # 7개의 번호 예측
 

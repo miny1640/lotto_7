@@ -2,18 +2,18 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 import time, csv, re
-import env
 
 BASE_URL = "https://www.mizuhobank.co.jp/takarakuji/check/loto"
 LATEST_URL = f"{BASE_URL}/loto7/index.html"
 FROMTO_URL_TEMPLATE = f"{BASE_URL}/backnumber/detail.html?fromto={{start}}_{{end}}&type=loto7"
-CSV_FILE = env.CSV_FILE
+CSV_FILE = "lotto7_results.csv"
 
 def get_driver():
     options = Options()
     options.add_argument('--headless')
     options.add_argument('--disable-gpu')
     options.add_argument('--no-sandbox')
+    options.add_argument('--start-maximized')
     driver = webdriver.Chrome(options=options)
     return driver
 

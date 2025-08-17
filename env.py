@@ -1,1 +1,0 @@
-CSV_FILE = "lotto7_results.csv"
